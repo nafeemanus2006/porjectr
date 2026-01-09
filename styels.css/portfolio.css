@@ -31,6 +31,7 @@ font-weight: 900;
     border-radius:5px ;
     font-size:20px ;
     font-weight: bold;
+    cursor: pointer;
 }
 
 
@@ -38,6 +39,8 @@ font-weight: 900;
 
 header {
     background-color: #FFF8F3;
+    background:url(''.. images/developer.png),url(../images/header_bg.png)
+    b'
     padding-top: 50px;
 }
 
@@ -61,3 +64,38 @@ nav .menu a{
     color: #474747;
     text-decoration: none;
 }
+#banner{
+    
+    margin: 47px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+}
+#banner.banner-content{
+    max-width: 585px;
+}
+
+#banner .banner-content h2{
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom:50px ;
+}
+#banner.banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: #cf1616;
+    margin-bottom: 20 px ;
+}
+#banner .banner-content p{
+font-size: 18px;
+color: #474747;
+line-height: 30px;
+margin-bottom:30px ;
+}
+#banner.banner-image img{
+    max width:585px ;
+    vertical-align:middle
+
+}
+
+
